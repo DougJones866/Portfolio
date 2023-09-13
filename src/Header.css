@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: center;
+  
+  
+}
+.container {
+  
+
+}
+
+
+
+.navigation-items {
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin-left: auto;
+  
+ 
+}
+
+.navigation-item {
+  padding: 5px;
+}
+
+.logo {
+  margin: 0;
+  float:left;
+  
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  nav {
+      margin:5px;
+  }
+
+  
+
+}

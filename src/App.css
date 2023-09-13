@@ -1,0 +1,49 @@
+.projects {
+  max-width: 50rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  
+}
+.maincontainer {
+  text-align: center;
+}
+
+.main {
+  display: inline-flex;
+  
+}
+
+.about {
+  padding-top: 50px;
+  font-size: 150%;
+}
+
+.profile img {
+  height: 400px;
+  width:auto;
+}
+
+
+@media (max-width: 600px) {
+  .projects {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+  }
+  .about {
+    font-size: 100%;
+  }
+  .main {
+    flex-direction: column-reverse;
+    margin:5px;
+  }
+  .profile img {
+    height: 200px;
+    width:auto;
+  }
+  
+
+}

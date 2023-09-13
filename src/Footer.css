@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icons {
+    font-size: 300%;
+}
+
+li {
+    padding-right:15px;
+}
+
+li:hover {
+    color:orangered;
+}
