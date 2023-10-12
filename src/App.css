@@ -10,8 +10,11 @@
   text-align: center;
 }
 
+
+
 .main {
   display: inline-flex;
+  background-color: #1e1a24;
   
 }
 
@@ -23,6 +26,11 @@
 .profile img {
   height: 400px;
   width:auto;
+}
+
+.formcontainer {
+  background-color: #1e1a24;
+  padding: 25px;
 }
 
 
